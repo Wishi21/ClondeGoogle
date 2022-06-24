@@ -1,0 +1,173 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: .5rem;
+}
+
+.menu li{
+    padding: .5rem .5rem;
+}
+
+.menu li a{
+    font-size: .8rem;
+}
+
+.menu li img{
+    border-radius: 50%;
+}
+
+.iconoFondo:hover{
+    background: #f2f2f2;
+    border-radius: 50%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.imgLogo img{
+    padding-top: 12rem;
+}
+
+.inputBuscar{
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#input{
+    width: 30rem;
+    height: 2.8rem;
+    border-radius: 1.625rem;
+    border: 1px solid grey;
+    font-size: 1rem;
+    padding: 0 3rem;
+}
+
+#input:hover{
+    box-shadow: 0px 1px 3px -1px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 1px 3px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 1px 3px -1px rgba(0,0,0,1);
+}
+
+#searchIcon{
+    margin-right: -2rem;
+    color: grey;
+    z-index: 1;
+}
+
+#microfonoIcon{
+    margin-left: -2rem;
+    width: 1rem;
+    height: 1.5rem;
+    color: blue;
+    z-index: 1;
+}
+
+.botonesDiv{
+    padding-top: 1.6rem;
+}
+
+.botonesDiv button{
+    font-size: .9rem;
+    margin: 0 .5rem;
+    height: 2rem;
+    background: #f8f9fa;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botonesDiv button:hover{
+    border: 1px solid grey;
+}
+
+.textoDiv{
+    padding-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+}
+
+footer div{
+    width: 100%;
+    padding:0;
+    margin: 0;
+}
+
+footer div ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    border-bottom: 1px solid #9592a2;
+    width: 100%;
+    margin: 0;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: .8rem;
+    color: #9592a2;
+}
+
+.menuFooter{
+    padding-left: 0;
+}
+
+.menuFooter li{
+    padding: 0 1rem;
+}
+
+.menuFooter li a{
+    text-decoration: none;
+    color: #9592a2;
+}
+
+.menuFooter li a:hover{
+    text-decoration: underline;
+}
+
+#menuFooterDer{
+    justify-content: flex-end;
+}
+
+.menuFooterDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
